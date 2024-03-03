@@ -70,7 +70,7 @@ const DivTwo = ({ location }: { location: Location }) => (
         Icon={FaChartBar}
       />
       <Li
-        url="/admin/char/pie"
+        url="/admin/chart/pie"
         location={location}
         text="Pie"
         Icon={FaChartPie}
@@ -85,7 +85,7 @@ const DivTwo = ({ location }: { location: Location }) => (
   </div>
 );
 
-const DivThree = ({location}:{location: Location}) => (
+const DivThree = ({ location }: { location: Location }) => (
   <div>
     <h5>Apps</h5>
     <ul>
